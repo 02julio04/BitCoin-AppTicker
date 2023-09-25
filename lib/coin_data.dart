@@ -32,7 +32,7 @@ const List<String> cryptoList = [
   'LTC',
 ];
 const coinAPIURL = 'https://rest.coinapi.io/v1/exchangerate';
-const apikey = '01890798-E4AF-4729-B5A7-E0B13E73A48C';
+const apikey = 'YOUR API KEY';
 class CoinData {
   Future getExchangeRate(String selectedCurrency, String crypto)async{
     Network networkURL = Network(
